@@ -1,0 +1,9 @@
+[book]
+authors = ["arunksoman"]
+language = "en"
+multilingual = false
+src = "src"
+title = "പൈത്തണ്‍: ഓര്‍ക്കേണ്ട വസ്തുതകള്‍"
+[output.html]
+mathjax-support = true
+additional-css = ["style.css"]
