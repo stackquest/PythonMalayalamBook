@@ -1,9 +1,26 @@
 [book]
 authors = ["arunksoman"]
-language = "en"
+language = "ml"
 multilingual = false
 src = "src"
 title = "പൈത്തണ്‍: ഓര്‍ക്കേണ്ട വസ്തുതകള്‍"
+
 [output.html]
 mathjax-support = true
 additional-css = ["style.css"]
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
