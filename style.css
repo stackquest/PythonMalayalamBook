@@ -22,6 +22,9 @@ code {
     font-size: 0.875em; /* please adjust the ace font size accordingly in editor.js */
 }
 
-.responsive{
+table{
+    display: block;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
     overflow-x: auto !important;
 }
