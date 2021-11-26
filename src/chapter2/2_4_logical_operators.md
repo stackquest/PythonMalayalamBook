@@ -8,3 +8,25 @@
 |or| ലോജിക്കല്‍ ഓര്‍ | ഏതെങ്കിലും ഒരു ഓപ്പറണ്ട് `True` ആയാല്‍ നിബന്ധനയും `True` ആകും |
 |not|ലോജിക്കല്‍ നോട്ട്| ഇപ്പോഴത്തെ ലോജിക്കല്‍ നില (state) എതിരാക്കാന്‍ ഉപയോഗിക്കുന്നു |
 
+```python
+>>> a = 5
+>>> b = 3
+>>> c = 2
+>>> a > c and b > c
+True
+>>> a < c and b > c
+False
+>>> a < c and b < c
+False
+>>> a > c or b > c
+True
+>>> a < c or b > c
+True
+>>> a < c or b < c
+False
+>>> not a < c
+True
+>>> not a > c
+False
+>>>
+```
